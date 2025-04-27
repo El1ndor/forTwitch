@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 @media (max-width: 480px) {
+    .container {
+        padding-top: 10px;
+    }
+}
+@media (max-width: 480px) {
     .links a {
         font-size: 14px;     /* Меньше текст кнопки */
         padding: 10px 15px;  /* Меньше высота кнопок */
