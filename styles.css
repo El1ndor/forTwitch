@@ -1,29 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-@media (max-width: 768px) {
-    .container {
-        max-width: 80%;
-        padding-top: 40px;
+@media (max-width: 480px) {
+    .links a {
+        font-size: 14px;     /* Меньше текст кнопки */
+        padding: 10px 15px;  /* Меньше высота кнопок */
+        margin: 6px 0;       /* Меньше отступ между кнопками */
     }
 
-    .avatar {
-        width: 130px;
-        height: 130px;
+    .profile-pic {
+        width: 100px;        /* Меньше аватарка */
+        height: 100px;
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 20px;     /* Меньше заголовок */
     }
 
     p {
-        font-size: 17px;
-    }
-
-    .links a {
-        font-size: 17px;
-        padding: 11px;
+        font-size: 14px;     /* Меньше описание */
     }
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Разрешаем вертикальный скролл */
+} 
 
 body {
     margin: 0;
@@ -54,6 +56,7 @@ body {
     padding-top: 50px;
     text-align: center;
     color: white;
+    
 }
 
 .avatar {
