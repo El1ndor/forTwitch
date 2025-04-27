@@ -1,4 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@media (max-width: 768px) {
+    .container {
+        max-width: 80%;
+        padding-top: 40px;
+    }
+
+    .avatar {
+        width: 130px;
+        height: 130px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .links a {
+        font-size: 17px;
+        padding: 11px;
+    }
+}
 
 
 body {
