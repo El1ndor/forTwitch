@@ -204,7 +204,7 @@ p {
     background: #99aab5; /* подсветка для Discord при клике */
     box-shadow: 0 0 20px rgba(114, 137, 218, 0.8);
 }
-
+/* донешен */
 .links a:nth-child(5) {
     background: #ff944d; /* Светло-оранжевый при нажатии */
     box-shadow: 0 0 20px rgba(244, 123, 32, 0.8);
